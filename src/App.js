@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import RefDemo from './demos/ref/index';
+import ComponentDemo from './demos/forward-ref/index';
 import './App.css';
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
 
           <p>
             <h3>ForwardRef</h3>
-            <RefDemo />
+            <ComponentDemo />
           </p>
         </header>
       </div>
