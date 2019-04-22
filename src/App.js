@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import RefDemo from './demos/ref/index';
 import ComponentDemo from './demos/forward-ref/index';
+import ContextDemo from './demos/context/index';
 import './App.css';
 
 class App extends Component {
@@ -16,6 +17,11 @@ class App extends Component {
           <p>
             <h3>ForwardRef</h3>
             <ComponentDemo />
+          </p>
+
+          <p>
+            <h3>ContextRef</h3>
+            <ContextDemo />
           </p>
         </header>
       </div>
