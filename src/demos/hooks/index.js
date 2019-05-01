@@ -8,7 +8,7 @@ export default () => {
     return () => {
       console.log('unMount');
     }
-  });
+  }, []);
   return (
     <>
       <p>My name is: {name}</p>
