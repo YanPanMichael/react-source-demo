@@ -12,7 +12,7 @@ export default () => {
   return (
     <>
       <p>My name is: {name}</p>
-      <input type="text" value={name} onChange={e => setName(e.target.value)} />
+      <input type="text" value={name} placeholder='please input' onChange={e => setName(e.target.value)} />
     </>
   );
 };
