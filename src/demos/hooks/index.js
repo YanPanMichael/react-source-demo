@@ -4,6 +4,10 @@ export default () => {
   const [name, setName] = useState("Michael");
   useEffect(() => {
     console.log('function component update');
+
+    return () => {
+      console.log('unMount');
+    }
   });
   return (
     <>
