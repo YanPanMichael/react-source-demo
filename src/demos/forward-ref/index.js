@@ -12,7 +12,9 @@ class ComponentDemo extends Component {
   }
 
   componentDidMount() {
-    this.objRef.current.value = "new changed";
+    this.objRef.current.placeholder = "new changeds";
+    this.objRef.current.value = "Try delete this content";
+    console.log(this.objRef.current.getBoundingClientRect().left);
   }
 
   render() {
