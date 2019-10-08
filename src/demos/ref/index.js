@@ -26,8 +26,6 @@ class RefDemo extends Component {
   }
 }
 
-RefDemo.propTypes = {
-
-};
+RefDemo.propTypes = {};
 
 export default RefDemo;
