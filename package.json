@@ -115,5 +115,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "moment": "^2.24.0",
+    "victory": "^33.1.1"
   }
 }
