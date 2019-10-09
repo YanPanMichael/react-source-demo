@@ -12,7 +12,7 @@ class RefDemo extends Component {
       this.refs.stringRef.textContent = "ref 1";
       this.pRef.textContent = "ref 2";
       this.objRef.current.textContent = "ref 3"; // {current: null}
-    }, 1000);
+    }, 3000);
   }
   
   render() {
