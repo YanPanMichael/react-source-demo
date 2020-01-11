@@ -5,6 +5,7 @@ import ContextDemo from "./demos/context/index";
 import HooksDemo from "./demos/hooks/index";
 import ChildrenDemo from "./demos/children/index";
 import SuspenseDemo from "./demos/suspense/index";
+import UseMemoDemo from "./demos/useMemo/useMemo";
 import "./App.css";
 
 class App extends Component {
@@ -40,6 +41,11 @@ class App extends Component {
           <h3>SuspenseDemo</h3>
           <p>
             <SuspenseDemo />
+          </p>
+
+          <h3>UseMemoDemo</h3>
+          <p>
+            <UseMemoDemo />
           </p>
         </header>
       </div>

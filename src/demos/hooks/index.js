@@ -9,15 +9,15 @@ export default () => {
     return () => {
       console.log('function component name unMount');
     }
-  }, [name]);
+  }, [name, age]);
 
-  useEffect(() => {
-    console.log('function component age update');
+  // useEffect(() => {
+  //   console.log('function component age update');
 
-    return () => {
-      console.log('function component age unMount');
-    }
-  }, [age]);
+  //   return () => {
+  //     console.log('function component age unMount');
+  //   }
+  // }, [age]);
   return (
     <>
       <p>My name is: {name}</p>
