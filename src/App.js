@@ -4,7 +4,8 @@ import ComponentDemo from "./demos/forward-ref/index";
 import ContextDemo from "./demos/context/index";
 import HooksDemo from "./demos/hooks/index";
 import ChildrenDemo from "./demos/children/index";
-import SuspenseDemo from "./demos/suspense/index";
+import SuspenseDemo from "./demos/suspense/demo2/index";
+import Suspense1Demo from "./demos/suspense/demo1/index";
 import UseMemoDemo from "./demos/useMemo/useMemo";
 import "./App.css";
 
@@ -41,6 +42,7 @@ class App extends Component {
           <h3>SuspenseDemo</h3>
           <p>
             <SuspenseDemo />
+            <Suspense1Demo />
           </p>
 
           <h3>UseMemoDemo</h3>
