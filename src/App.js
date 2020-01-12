@@ -7,6 +7,7 @@ import ChildrenDemo from "./demos/children/index";
 import SuspenseDemo from "./demos/suspense/demo2/index";
 import Suspense1Demo from "./demos/suspense/demo1/index";
 import UseMemoDemo from "./demos/useMemo/useMemo";
+import BatchedUpdatesDemo from "./demos/batchedUpdates/batchedUpdates";
 import "./App.css";
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h3>createRef</h3>
+          {/* <h3>createRef</h3>
           <p>
             <RefDemo />
           </p>
@@ -48,6 +49,11 @@ class App extends Component {
           <h3>UseMemoDemo</h3>
           <p>
             <UseMemoDemo />
+          </p> */}
+
+          <h3>BatchedUpdates</h3>
+          <p>
+            <BatchedUpdatesDemo />
           </p>
         </header>
       </div>
