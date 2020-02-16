@@ -33,14 +33,14 @@ class App extends Component {
           <h3>HooksDemo</h3>
           <p>
             <HooksDemo />
-          </p>
+          </p> */}
 
           <h3>ChildrenDemo</h3>
           <p>
             <ChildrenDemo />
           </p>
 
-          <h3>SuspenseDemo</h3>
+          {/*<h3>SuspenseDemo</h3>
           <p>
             <SuspenseDemo />
             <Suspense1Demo />
